@@ -71,7 +71,7 @@ int main(){
     cout<<"3#display the queue"<<endl;
     cout<<"4#size of queue"<<endl;
     cout<<"5#front element of queue"<<endl;
-    cout<<"5#rear element of queue"<<endl;
+    cout<<"6#rear element of queue"<<endl;
     do{
         cout<<"Enter your choice: "<<endl;
         cin>>choice;
