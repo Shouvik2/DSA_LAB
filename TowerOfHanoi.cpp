@@ -3,7 +3,7 @@ using namespace std;
 void towerOfHanoi (int n,char s, char h, char d){
     if(n==0) return;
     towerOfHanoi(n-1,s,d,h);
-    printf("%c -> %c\n",s,d);
+    cout<< s <<" -> "<<d<<endl;
     towerOfHanoi(n-1,h,s,d);
     return ;
 }
