@@ -11,7 +11,7 @@ public:
         b=0;
     }
     void push(int val){
-        if(b==5){
+        if(b==MAX-1){
             cout<<"Queue is FULL!"<<endl;
             return;
         }
